@@ -4,12 +4,12 @@
 This is text I have floating in space. I would like to print a `picture` below.
 ![Plot #1](plots/plot_cpi.png)
 
-Can we make this plot any smaller?<br />
-<img src="plots/plot_cpi.png" alt="Plot #1b" width="400"/>
+Can we make this plot any smaller?
+<br /><img src="plots/plot_cpi.png" alt="Plot #1b" width="400"/>\
 Do I need to add in another line break here? Certainly so.
 
 # Plot #2
-
+![Plot #1](plots/plot_cpi_unrate.png)
 
 > [!NOTE]
 > Useful information that users should know, even when skimming content.
