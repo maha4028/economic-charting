@@ -7,30 +7,32 @@ The following chart types/topics are covered:
 
 ## Macroeconomic indicators
 
-I will be plotting the [Consumer Price Index for All Urban Consumers](https://fred.stlouisfed.org/graph/?g=1wmdD) and the [Unemployment Rate](https://fred.stlouisfed.org/series/UNRATE) from FRED via the `quantmod` library.
+Below are the [Consumer Price Index for All Urban Consumers](https://fred.stlouisfed.org/graph/?g=1wmdD) and the [Unemployment Rate](https://fred.stlouisfed.org/series/UNRATE) from FRED via the `quantmod` library.
 
 <!-- ![Plot #1](plots/plot_cpi.png) -->
 <p align="center">
 <img src="plots/plot_cpi.png" alt="Plot #1" width="800">
 </p>
 
-## Phillips curve
-
-The solid lines below show the percent change from a year ago in the consumer price index (CPI) and the unemployment rate. The dashed red and blue lines are the "natural rate of unemployment" and the Fed's target for annual inflation, respectively. 
-
-Although the exact figure for the "natural rate of unemployment" is unkown - it usually hovers between four and five percent; Below, I plotted it at five percent. The inflation target is plotted at the stated two percent.
+When plotted together, the unemployment rate and inflation seem to have an inverse relationship. When unemployment goes up inflation comes down.
 
 <!-- ![Plot #2](plots/plot_cpi_unrate.png) -->
 <p align="center">
 <img src="plots/plot_cpi_unrate.png" alt="Plot #2" width="400">
 </p>
 
-The two varibales seem to have in an inverse relationship - when unemployment is up inflation is down. This negative correlation (-0.433) is described by [the Phillips curve](https://en.wikipedia.org/wiki/Phillips_curve#/media/File:U.S._Phillips_Curve_2000_to_2013.png). However, if we plot the two variables aginst eachother, we see that the relationship is imperfect. There are other, here unobserved, factors that affect inflation.
+The dashed red and blue lines are the "natural rate of unemployment" and the Fed's target for year-over-year (YoY) or annual inflation, respectively. Although the exact figure for the "natural rate of unemployment" is unkown - it usually hovers between four and five percent; Above, I plotted it at five percent. The inflation target is plotted at the Fed's stated two percent target.
+
+## Phillips curve
+
+When plotted across time, we see that unemployment and inflation are indeed negavily correlated with a correlation coefficient of -0.433. This relationship is described by [the Phillips curve](https://en.wikipedia.org/wiki/Phillips_curve#/media/File:U.S._Phillips_Curve_2000_to_2013.png). In our sample, from 2000 to present, we see the highest data point for inflation is from June 2022 and out highest data point for unemployment is from April 2020.
 
 <!-- ![Plot #Phil](plots/plot_phillips_curve.png) -->
 <p align="center">
 <img src="plots/plot_phillips_curve.png" alt="Plot #2" width="400">
 </p>
+
+The blue line fits a linear model where we regress inflation on the unemployment rate. We can see that there is a significant amount of variation in observed inflation for a given level of unemployment. This tell us that there are other factors which affect inflation which are not included in our model.
 
 # Github Commands
 To copy:
