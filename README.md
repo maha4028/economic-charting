@@ -43,6 +43,8 @@ In fact, there is a considerable amount of debate about the usefulness of the Ph
 <img src="plots/plot_phillips_curve_stag.png" alt="Plot #2" width="400">
 </p>
 
+Today, most economists agree the Phillips curve is only unseful in the short run, and that in the long run there is no trade-off in inflation and unemployment.
+
 # Github commands
 To copy
 ```
