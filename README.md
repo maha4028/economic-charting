@@ -10,7 +10,7 @@ The following chart types/topics are covered:
 I will be plotting the [Consumer Price Index for All Urban Consumers](https://fred.stlouisfed.org/graph/?g=1wmdD) and the [Unemployment Rate](https://fred.stlouisfed.org/series/UNRATE) from FRED via the `quantmod` library.
 
 <!-- ![Plot #1](plots/plot_cpi.png) -->
-<img src="plots/plot_cpi.png" alt="Plot #1" width="600"/><br />
+<img src="plots/plot_cpi.png" alt="Plot #1" width="500"/><br />
 
 ## Phillips curve
 
@@ -19,7 +19,9 @@ The solid lines below show the percent change from a year ago in the consumer pr
 Although the exact figure for the "natural rate of unemployment" is unkown - it usually hovers between four and five percent; Below, I plotted it at five percent. The inflation target is plotted at the stated two percent.
 
 <!-- ![Plot #2](plots/plot_cpi_unrate.png) -->
-<img src="plots/plot_cpi_unrate.png" alt="Plot #2" width="600">
+<p align="center">
+<img src="plots/plot_cpi_unrate.png" alt="Plot #2" width="500"/>
+</p>
 
 The two varibales seem to have in an inverse relationship - when unemployment is up inflation is down. This negative correlation (-0.433) is described by [the Phillips curve](https://en.wikipedia.org/wiki/Phillips_curve#/media/File:U.S._Phillips_Curve_2000_to_2013.png). However, if we plot the two variables aginst eachother, we see that the relationship is imperfect. There are other, here unobserved, factors that affect inflation.
 
