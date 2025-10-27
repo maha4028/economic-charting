@@ -23,18 +23,19 @@ When plotted together, the unemployment rate and inflation seem to have an inver
 <img src="plots/plot_cpi_unrate.png" alt="Plot #2" width="400">
 </p>
 
-To better observe this inverse relationship, we need to plot the two series across time in a scatter plot.
+To better observe this inverse relationship, we need to plot the two series in a scatter plot.
 
 ## Phillips curve
 
-When plotted across time, we see that unemployment and inflation are indeed negatively correlated with a correlation coefficient of -0.433. This relationship is described by [the Phillips curve](https://en.wikipedia.org/wiki/Phillips_curve). In our sample, from 2000-present, we see that the highest data point for inflation is from June 2022 and our highest data point for unemployment is from April 2020.
+When plotted across time, we see that unemployment and inflation are indeed negatively correlated with a correlation coefficient of -0.433. This relationship is described by [the Phillips curve](https://en.wikipedia.org/wiki/Phillips_curve). 
+In our sample, from 2000-present, we see that the highest data point for inflation is from June 2022 and our highest data point for unemployment is from April 2020.
 
 <!-- ![Plot #Phil](plots/plot_phillips_curve.png) -->
 <p align="center">
 <img src="plots/plot_phillips_curve.png" alt="Plot #2" width="400">
 </p>
 
-The blue line fits a linear model where we regress inflation on the unemployment rate. We can see that there is a significant amount of variation in observed inflation for a given level of unemployment. This tell us that there are other factors which affect inflation which are not included in our model.
+The blue line fits a linear model where we regress inflation on the unemployment rate. We can see that there is a significant amount of variation in observed inflation for a given level of unemployment. This tell us that there are other factors missing from our model which affect inflation.
 
 # Github Commands
 To copy:
