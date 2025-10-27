@@ -14,7 +14,7 @@ Below are the [Consumer Price Index for All Urban Consumers](https://fred.stloui
 <img src="plots/plot_cpi.png" alt="Plot #1" width="800">
 </p>
 
-The left and right dashed lines are the Fed's target for year-over-year (YoY) or annual inflation and the "natural rate of unemployment", respectively. Although the exact figure for the "natural rate of unemployment" is unkown - it usually hovers between four and five percent; Above, I plotted it at five percent. The inflation target is plotted at the Fed's stated two percent target.
+The left and right dashed lines are the Fed's target for year-over-year (YoY), or annual, inflation and the "natural rate of unemployment", respectively. The inflation target is plotted at the Fed's stated two percent target. Although the exact figure for the "natural rate of unemployment" is unkown - it usually hovers between four and five percent; Above, I plotted it at five percent.
 
 When plotted together, the unemployment rate and inflation seem to have an inverse relationship. When unemployment goes up inflation comes down.
 
@@ -22,6 +22,8 @@ When plotted together, the unemployment rate and inflation seem to have an inver
 <p align="center">
 <img src="plots/plot_cpi_unrate.png" alt="Plot #2" width="400">
 </p>
+
+To better observe this inverse relationship, we need to plot the observations across time in a scatter plot.
 
 ## Phillips curve
 
