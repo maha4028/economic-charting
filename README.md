@@ -10,7 +10,7 @@ The following chart types/topics are covered:
 I will be plotting the [Consumer Price Index for All Urban Consumers](https://fred.stlouisfed.org/graph/?g=1wmdD) and the [Unemployment Rate](https://fred.stlouisfed.org/series/UNRATE) from FRED via the `quantmod` library.
 
 <!-- ![Plot #1](plots/plot_cpi.png) -->
-<br /><img src="plots/plot_cpi.png" alt="Plot #1" width="600"/><br />
+<img src="plots/plot_cpi.png" alt="Plot #1" width="600"/><br />
 
 ## Phillips curve
 
