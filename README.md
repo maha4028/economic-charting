@@ -35,10 +35,16 @@ In our sample, from 2000-present, we see that the highest data point for inflati
 <img src="plots/plot_phillips_curve.png" alt="Plot #2" width="400">
 </p>
 
-The blue line fits a linear model where we regress inflation on the unemployment rate. We can see that there is a significant amount of variation in observed inflation for a given level of unemployment. This tell us that there are other factors missing from our model which affect inflation.
+The blue line fits a linear model where we regress inflation on the unemployment rate. We can see that there is a significant amount of variation in inflation for a given level of unemployment. This tell us that there are other factors missing from our model which affect inflation.
 
-# Github Commands
-To copy:
+In fact, there is a considerable amount of debate about the usefulness of the Phillips curve since there are many examples where it doesn't hold. If we plot inflation and unemployment data from the 25 years between 1965 and 1990, we see that the relationship turns positive.
+
+<p align="center">
+<img src="plots/plot_phillips_curve_stag.png" alt="Plot #2" width="400">
+</p>
+
+# Github commands
+To copy
 ```
 git clone [link]
 ```
