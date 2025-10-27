@@ -14,6 +14,8 @@ Below are the [Consumer Price Index for All Urban Consumers](https://fred.stloui
 <img src="plots/plot_cpi.png" alt="Plot #1" width="800">
 </p>
 
+The left and right dashed lines are the Fed's target for year-over-year (YoY) or annual inflation and the "natural rate of unemployment", respectively. Although the exact figure for the "natural rate of unemployment" is unkown - it usually hovers between four and five percent; Above, I plotted it at five percent. The inflation target is plotted at the Fed's stated two percent target.
+
 When plotted together, the unemployment rate and inflation seem to have an inverse relationship. When unemployment goes up inflation comes down.
 
 <!-- ![Plot #2](plots/plot_cpi_unrate.png) -->
@@ -21,11 +23,9 @@ When plotted together, the unemployment rate and inflation seem to have an inver
 <img src="plots/plot_cpi_unrate.png" alt="Plot #2" width="400">
 </p>
 
-The dashed red and blue lines are the "natural rate of unemployment" and the Fed's target for year-over-year (YoY) or annual inflation, respectively. Although the exact figure for the "natural rate of unemployment" is unkown - it usually hovers between four and five percent; Above, I plotted it at five percent. The inflation target is plotted at the Fed's stated two percent target.
-
 ## Phillips curve
 
-When plotted across time, we see that unemployment and inflation are indeed negavily correlated with a correlation coefficient of -0.433. This relationship is described by [the Phillips curve](https://en.wikipedia.org/wiki/Phillips_curve#/media/File:U.S._Phillips_Curve_2000_to_2013.png). In our sample, from 2000 to present, we see the highest data point for inflation is from June 2022 and out highest data point for unemployment is from April 2020.
+When plotted across time, we see that unemployment and inflation are indeed negatively correlated with a correlation coefficient of -0.433. This relationship is described by [the Phillips curve](https://en.wikipedia.org/wiki/Phillips_curve). In our sample, from 2000 to present, we see the highest data point for inflation is from June 2022 and out highest data point for unemployment is from April 2020.
 
 <!-- ![Plot #Phil](plots/plot_phillips_curve.png) -->
 <p align="center">
