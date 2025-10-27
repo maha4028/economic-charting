@@ -14,9 +14,13 @@ Do I need to add in another line break here? Certainly so. -->
 
 The solid lines below show the percent change from a year ago in the consumer price index (CPI) and the unemployment rate. The dashed red and blue lines are the "natural rate of unemployment" and the Fed's target for annual inflation, respectively. 
 
-Although the exact figure for the "natural rate of unemployment" is unkown - it usually hovers between four and five percent. Below, I plotted it at 5%. The inflation target is plotted at 2%.
+Although the exact figure for the "natural rate of unemployment" is unkown - it usually hovers between four and five percent; Below, I plotted it at five percent. The inflation target is plotted at the stated two percent.
 
 ![Plot #2](plots/plot_cpi_unrate.png)
+
+The two varibales seem to move in an inverse relationship - when CPI is down the unemployment rate is up. This relationship is described by [the Phillips curve](https://en.wikipedia.org/wiki/Phillips_curve#/media/File:U.S._Phillips_Curve_2000_to_2013.png). However, the two variables are only weakly correlated.
+
+![Plot #Phil](plot_phillips_curve.png)
 
 # Github Commands
 To copy:
