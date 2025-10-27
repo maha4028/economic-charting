@@ -19,7 +19,7 @@ The solid lines below show the percent change from a year ago in the consumer pr
 Although the exact figure for the "natural rate of unemployment" is unkown - it usually hovers between four and five percent; Below, I plotted it at five percent. The inflation target is plotted at the stated two percent.
 
 <!-- ![Plot #2](plots/plot_cpi_unrate.png) -->
-/<img src="plots/plot_cpi_unrate.png" alt="Plot #2" width="600"/>/
+</img src="plots/plot_cpi_unrate.png" alt="Plot #2" width="600"/>
 
 The two varibales seem to have in an inverse relationship - when unemployment is up inflation is down. This negative correlation (-0.433) is described by [the Phillips curve](https://en.wikipedia.org/wiki/Phillips_curve#/media/File:U.S._Phillips_Curve_2000_to_2013.png). However, if we plot the two variables aginst eachother, we see that the relationship is imperfect. There are other, here unobserved, factors that affect inflation.
 
