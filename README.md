@@ -1,16 +1,39 @@
 # Economic Charting
+
 ## Plot #1
 
-This is text I have floating in space. I would like to print a `picture` below.
+I will be plotting data from the [Consumer Price Index for All Urban Consumers](https://fred.stlouisfed.org/graph/?g=1wmdD) and the [Unemployment Rate](https://fred.stlouisfed.org/series/UNRATE) from FRED via the `quantmod` library.
+
 ![Plot #1](plots/plot_cpi.png)
 
-Can we make this plot any smaller?
+<!-- Can we make this plot any smaller?
 <br /><img src="plots/plot_cpi.png" alt="Plot #1b" width="400"/>\
-Do I need to add in another line break here? Certainly so.
+Do I need to add in another line break here? Certainly so. -->
 
 # Plot #2
-![Plot #1](plots/plot_cpi_unrate.png)
 
+The chart below shows the percent change from a year ago in the CPI and the unemployment rate.
+
+The dashed red and blue lines are the "natural rate of unemployment" and the Fed's inflation target, respectively. 
+
+Although the exact figure for the "natural rate of unemployment" is unkown, it usually hovers between four and five percent. 
+
+In this chart, I plotted it at 5%. The inflation target is plotted at 2%.
+
+![Plot #2](plots/plot_cpi_unrate.png)
+
+# Github Commands
+To copy:
+```
+git clone [link]
+```
+To upload
+```
+git status
+git add .
+git commit -m "message"
+git push origin main
+```
 > [!NOTE]
 > Useful information that users should know, even when skimming content.
 
