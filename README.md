@@ -11,7 +11,7 @@ I will be plotting the [Consumer Price Index for All Urban Consumers](https://fr
 
 <!-- ![Plot #1](plots/plot_cpi.png) -->
 <p align="center">
-<img src="plots/plot_cpi.png" alt="Plot #1" width="1000">
+<img src="plots/plot_cpi.png" alt="Plot #1" width="800">
 </p>
 
 ## Phillips curve
@@ -22,14 +22,14 @@ Although the exact figure for the "natural rate of unemployment" is unkown - it 
 
 <!-- ![Plot #2](plots/plot_cpi_unrate.png) -->
 <p align="center">
-<img src="plots/plot_cpi_unrate.png" alt="Plot #2" width="500">
+<img src="plots/plot_cpi_unrate.png" alt="Plot #2" width="400">
 </p>
 
 The two varibales seem to have in an inverse relationship - when unemployment is up inflation is down. This negative correlation (-0.433) is described by [the Phillips curve](https://en.wikipedia.org/wiki/Phillips_curve#/media/File:U.S._Phillips_Curve_2000_to_2013.png). However, if we plot the two variables aginst eachother, we see that the relationship is imperfect. There are other, here unobserved, factors that affect inflation.
 
 <!-- ![Plot #Phil](plots/plot_phillips_curve.png) -->
 <p align="center">
-<img src="plots/plot_phillips_curve.png" alt="Plot #2" width="500">
+<img src="plots/plot_phillips_curve.png" alt="Plot #2" width="400">
 </p>
 
 # Github Commands
