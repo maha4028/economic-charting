@@ -28,11 +28,12 @@ To better observe this inverse relationship, we need to plot the two series in a
 ## Phillips curve
 
 When plotted across time, we see that unemployment and inflation are indeed negatively correlated with a correlation coefficient of -0.433. This relationship is described by [the Phillips curve](https://en.wikipedia.org/wiki/Phillips_curve). 
+
 In our sample, from 2000-present, we see that the highest data point for inflation is from June 2022 and our highest data point for unemployment is from April 2020.
 
 <!-- ![Plot #Phil](plots/plot_phillips_curve.png) -->
 <p align="center">
-<img src="plots/plot_phillips_curve.png" alt="Plot #2" width="400">
+<img src="plots/plot_phillips_curve.png" alt="Plot #3" width="400">
 </p>
 
 The blue line fits a linear model where we regress inflation on the unemployment rate. We can see that there is a significant amount of variation in inflation for a given level of unemployment. This tell us that there are other factors missing from our model which affect inflation.
@@ -40,10 +41,21 @@ The blue line fits a linear model where we regress inflation on the unemployment
 In fact, there is a considerable amount of debate about the usefulness of the Phillips curve since there are many examples where it doesn't hold. If we plot inflation and unemployment data from the 25 years between 1965 and 1990, we see that the relationship turns positive.
 
 <p align="center">
-<img src="plots/plot_phillips_curve_stag.png" alt="Plot #2" width="400">
+<img src="plots/plot_phillips_curve_stag.png" alt="Plot #4" width="400">
 </p>
 
 Today, most economists agree the Phillips curve is only unseful in the short run, and that in the long run there is no trade-off in inflation and unemployment.
+
+## Pandemic effects
+The negative shock in the demand for labor causing a spike in unemployment, and later, the negative shock to the supply of goods and services cuasing higher inflation have largely worked their way through the economy. 
+
+At its very worst, the rate of unemployment was over 400%, or over 4x, its pre-pandemic level. Similarly, the CPI at its very highest was increasing at a rate just under 4x its pre-pandemic pace.
+
+<p align="center">
+<img src="plots/cpi_ur_indexed.png" alt="Plot #5" width="400">
+</p>
+
+Measures of both inflation and unemployment have returned to near pre-pandemic levels. Although inflation still hovers above the two percent target.
 
 # Github commands
 To copy
