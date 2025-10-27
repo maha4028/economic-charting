@@ -18,7 +18,7 @@ Although the exact figure for the "natural rate of unemployment" is unkown - it 
 
 ![Plot #2](plots/plot_cpi_unrate.png)
 
-The two varibales seem to move in an inverse relationship - when CPI is down the unemployment rate is up. This relationship is described by [the Phillips curve](https://en.wikipedia.org/wiki/Phillips_curve#/media/File:U.S._Phillips_Curve_2000_to_2013.png). However, the relationship is not strict as seen below.
+The two varibales seem to have in an inverse relationship - when unemployment is up inflation is down. This negative correlation (-0.433) is described by [the Phillips curve](https://en.wikipedia.org/wiki/Phillips_curve#/media/File:U.S._Phillips_Curve_2000_to_2013.png). However, if we plot the two variables aginst eachother, we see that the relationship is imperfect. There are other unobserved varibales that affect inflation.
 
 ![Plot #Phil](plots/plot_phillips_curve.png)
 
