@@ -11,9 +11,9 @@ I will be plotting the [Consumer Price Index for All Urban Consumers](https://fr
 
 ![Plot #1](plots/plot_cpi.png)
 
-<!-- Can we make this plot any smaller?
-<br /><img src="plots/plot_cpi.png" alt="Plot #1b" width="400"/>\
-Do I need to add in another line break here? Certainly so. -->
+Can we make this plot any smaller?
+<br /><img src="plots/plot_cpi.png" alt="Plot #1b" width="600"/>\
+Do I need to add in another line break here? Certainly so.
 
 ## Plot #2
 
