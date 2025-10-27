@@ -1,4 +1,9 @@
 # Economic Charting
+The following chart types/topics are covered:
+- Line graphs - using unemployment and inflation data;
+- Bar chart - using stock returns;
+- Stacked bar chart - using U.S. trade data;
+- Dumbell plot - using U.S. demographic data.
 
 ## Plot #1
 
@@ -10,7 +15,7 @@ I will be plotting the [Consumer Price Index for All Urban Consumers](https://fr
 <br /><img src="plots/plot_cpi.png" alt="Plot #1b" width="400"/>\
 Do I need to add in another line break here? Certainly so. -->
 
-# Plot #2
+## Plot #2
 
 The solid lines below show the percent change from a year ago in the consumer price index (CPI) and the unemployment rate. The dashed red and blue lines are the "natural rate of unemployment" and the Fed's target for annual inflation, respectively. 
 
@@ -18,7 +23,7 @@ Although the exact figure for the "natural rate of unemployment" is unkown - it 
 
 ![Plot #2](plots/plot_cpi_unrate.png)
 
-The two varibales seem to have in an inverse relationship - when unemployment is up inflation is down. This negative correlation (-0.433) is described by [the Phillips curve](https://en.wikipedia.org/wiki/Phillips_curve#/media/File:U.S._Phillips_Curve_2000_to_2013.png). However, if we plot the two variables aginst eachother, we see that the relationship is imperfect. There are other unobserved varibales that affect inflation.
+The two varibales seem to have in an inverse relationship - when unemployment is up inflation is down. This negative correlation (-0.433) is described by [the Phillips curve](https://en.wikipedia.org/wiki/Phillips_curve#/media/File:U.S._Phillips_Curve_2000_to_2013.png). However, if we plot the two variables aginst eachother, we see that the relationship is imperfect. There are other, here unobserved, factors that affect inflation.
 
 ![Plot #Phil](plots/plot_phillips_curve.png)
 
