@@ -2,7 +2,7 @@
 
 ## Plot #1
 
-I will be plotting data from the [Consumer Price Index for All Urban Consumers](https://fred.stlouisfed.org/graph/?g=1wmdD) and the [Unemployment Rate](https://fred.stlouisfed.org/series/UNRATE) from FRED via the `quantmod` library.
+I will be plotting the [Consumer Price Index for All Urban Consumers](https://fred.stlouisfed.org/graph/?g=1wmdD) and the [Unemployment Rate](https://fred.stlouisfed.org/series/UNRATE) from FRED via the `quantmod` library.
 
 ![Plot #1](plots/plot_cpi.png)
 
@@ -12,13 +12,9 @@ Do I need to add in another line break here? Certainly so. -->
 
 # Plot #2
 
-The chart below shows the percent change from a year ago in the CPI and the unemployment rate.
+The solid lines below show the percent change from a year ago in the consumer price index (CPI) and the unemployment rate. The dashed red and blue lines are the "natural rate of unemployment" and the Fed's target for annual inflation, respectively. 
 
-The dashed red and blue lines are the "natural rate of unemployment" and the Fed's inflation target, respectively. 
-
-Although the exact figure for the "natural rate of unemployment" is unkown, it usually hovers between four and five percent. 
-
-In this chart, I plotted it at 5%. The inflation target is plotted at 2%.
+Although the exact figure for the "natural rate of unemployment" is unkown - it usually hovers between four and five percent. Below, I plotted it at 5%. The inflation target is plotted at 2%.
 
 ![Plot #2](plots/plot_cpi_unrate.png)
 
