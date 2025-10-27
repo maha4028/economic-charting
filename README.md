@@ -27,7 +27,7 @@ The two varibales seem to have in an inverse relationship - when unemployment is
 
 <!-- ![Plot #Phil](plots/plot_phillips_curve.png) -->
 <p align="center">
-<img src="plots/plot_cpi_unrate.png" alt="Plot #2" width="500">
+<img src="plots/plot_phillips_curve.png" alt="Plot #2" width="500">
 </p>
 
 # Github Commands
