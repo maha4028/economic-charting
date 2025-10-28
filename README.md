@@ -60,7 +60,7 @@ Measures of both inflation and unemployment have returned to near pre-pandemic l
 ## Stock market
 
 <p align="center">
-<img src="plots/stocks.png" alt="Plot #6" width="400">
+<img src="plots/stocks.png" alt="Plot #6" width="600">
 </p>
 
 ## International trade
