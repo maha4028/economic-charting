@@ -60,13 +60,13 @@ Measures of both inflation and unemployment have returned to near pre-pandemic l
 ## Stock market
 
 <p align="center">
-<img src="plots/stocks.png" alt="Plot #6" width="600">
+<img src="plots/stocks.png" alt="Plot #6" width="400">
 </p>
 
 ## International trade
 
 <p align="center">
-<img src="plots/steel.png" alt="Plot #7" width="400">
+<img src="plots/steel.png" alt="Plot #7" width="500">
 </p>
 
 ## Demographic trends
@@ -86,6 +86,11 @@ git status
 git add .
 git commit -m "message"
 git push origin main
+```
+
+To open a side-by-side preview of a markdown file in VScode, allowing you to edit the file and see the rendered output simultaneously.
+```
+Cmd+K V
 ```
 
 # Markdown features
