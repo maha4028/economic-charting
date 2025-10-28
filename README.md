@@ -47,9 +47,9 @@ In fact, there is a considerable amount of debate about the usefulness of the Ph
 Today, most economists agree that the Phillips curve is only unseful in the short run, and that in the long run there is no trade-off in inflation and unemployment.
 
 ## Pandemic effects
-The negative shock in the demand for labor causing a spike in unemployment, and later, the negative shock to the supply of goods and services cuasing higher inflation have largely worked their way through the economy. 
+The negative shock in the demand for labor causing a spike in unemployment, and later, the negative shock to the supply of goods and services causing higher inflation have largely worked their way through the economy. 
 
-At its very worst, the unemployment rate was over 400%, or over 4x, its pre-pandemic level. Similarly, the CPI at its very highest was increasing at a rate just under 4x its pre-pandemic pace.
+At its very worst, the unemployment rate was over 400%, or over 4x, its pre-pandemic level. Similarly, inflation at its very highest was increasing at a rate just under 4x its pre-pandemic pace.
 
 <p align="center">
 <img src="plots/cpi_ur_indexed.png" alt="Plot #5" width="400">
