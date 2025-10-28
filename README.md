@@ -16,20 +16,16 @@ Below are the [Consumer Price Index for All Urban Consumers](https://fred.stloui
 
 The left and right dashed lines are the Fed's target for year-over-year (YoY), or annual, inflation and the "natural rate of unemployment", respectively. The inflation target is plotted at the Fed's stated two percent target. Although the exact figure for the "natural rate of unemployment" is unkown - it usually hovers between four and five percent; Above, I plotted it at five percent.
 
-When plotted together, the unemployment rate and inflation seem to have an inverse relationship. When unemployment goes up inflation comes down.
+## Phillips curve
+
+If we plot a time series of year-over-year inflation (YoY CPI) and the unemployment rate together, we see they have an inverse relationship: When unemployment goes up inflation comes down. To better quantify this inverse relationship, we need to correlate the two series in a scatter plot.
 
 <!-- ![Plot #2](plots/plot_cpi_unrate.png) -->
 <p align="center">
 <img src="plots/plot_cpi_unrate.png" alt="Plot #2" width="400">
 </p>
 
-To better observe this inverse relationship, we need to plot the two series in a scatter plot.
-
-## Phillips curve
-
-When plotted across time, we see that unemployment and inflation are indeed negatively correlated with a correlation coefficient of -0.433. This relationship is described by [the Phillips curve](https://en.wikipedia.org/wiki/Phillips_curve). 
-
-In our sample, from 2000-present, we see that the highest data point for inflation is from June 2022 and our highest data point for unemployment is from April 2020.
+When plotted across time, we see that unemployment and inflation are indeed negatively correlated with a correlation coefficient of -0.433. This relationship is described by [the Phillips curve](https://en.wikipedia.org/wiki/Phillips_curve). In our sample, from 2000-present, we see that the highest data point for inflation is from June 2022 and our highest data point for unemployment is from April 2020.
 
 <!-- ![Plot #Phil](plots/plot_phillips_curve.png) -->
 <p align="center">
