@@ -71,9 +71,9 @@ Measures of both inflation and unemployment have returned to near pre-pandemic l
 
 ## Demographic trends
 
-<!-- <p align="center">
-<img src="plots/stocks.png" alt="Plot #8" width="400">
-</p> -->
+<p align="center">
+<img src="plots/aging.png" alt="Plot #8" width="500">
+</p>
 
 # Github commands
 To copy
