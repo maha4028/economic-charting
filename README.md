@@ -40,12 +40,17 @@ In fact, there is a considerable amount of debate about the usefulness of the Ph
 <img src="plots/plot_phillips_curve_stag.png" alt="Plot #4" width="400">
 </p>
 
-Today, most economists agree that the Phillips curve is only unseful in the short run, and that in the long run there is no trade-off in inflation and unemployment. If we plot unemployment and inflation grouped by their calendar year, we see that the downward sloping Phillips curve consistently appears (at different intensities) across the much shorter time window of a given calendar year.
+Today, most economists agree that the Phillips curve is only unseful in the short run, and that in the long run there is no trade-off in inflation and unemployment. This insight helps to explain the unexpectedly positive correlation in unemployment and inflation we see above. If we instead break the scatter plot from 1965-1990 into smaller groups of 2-5 calendar years, we actaully find that there are multiple downward sloping Phillips curves in the data mixed in with a couple positive curves.
+
+<!-- If we plot unemployment and inflation grouped by their calendar year, we see that the downward sloping Phillips curve consistently appears (at different intensities) across the much shorter time window of a given calendar year. -->
 
 <p align="center">
 <img src="plots/short_phillips_curve.png" alt="Plot #4b" width="400">
 </p>
 
+This finding of several short-run Phillips curves inside of the spurious and singular long-run Phillips curve is supported by the theory that the relationship only holds in the short-run.
+
+Instances where the short-run Phillips curve flips (1973-1974 and 1975-1976) seem to be related to an episode of stagflation and recession in the mid-1970s.
 
 ## Pandemic effects
 The negative shock in the demand for labor causing a spike in unemployment, and later, the negative shock to the supply of goods and services causing higher inflation have largely worked their way through the economy. 
