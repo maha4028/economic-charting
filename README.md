@@ -18,21 +18,21 @@ The left and right dashed lines are the Fed's target for year-over-year (YoY), o
 
 ## Phillips curve
 
-If we plot a time series of year-over-year inflation (YoY CPI) and the unemployment rate together, we see they have an inverse relationship: When unemployment goes up inflation comes down. To better quantify this inverse relationship, we need to correlate the two series in a scatter plot.
+If we plot a time series of year-over-year inflation (YoY CPI) and the unemployment rate together, we see they have an inverse relationship. When unemployment goes up inflation comes down. To better quantify this inverse relationship, we need to correlate the two series in a scatter plot.
 
 <!-- ![Plot #2](plots/plot_cpi_unrate.png) -->
 <p align="center">
 <img src="plots/plot_cpi_unrate.png" alt="Plot #2" width="400">
 </p>
 
-When plotted across time, we see that unemployment and inflation are indeed negatively correlated with a correlation coefficient of -0.433. This relationship is described by [the Phillips curve](https://en.wikipedia.org/wiki/Phillips_curve). In our sample, from 2000-present, we see that the highest data point for inflation is from June 2022 and our highest data point for unemployment is from April 2020.
+When plotted across time, we see that the unemployment rate and inflation are indeed negatively correlated (with a correlation coefficient of -0.433). This relationship is described by [the Phillips curve](https://en.wikipedia.org/wiki/Phillips_curve). In our sample from 2000-present, we see that the highest data point for inflation is from June 2022 and our highest data point for unemployment is from April 2020.
 
 <!-- ![Plot #Phil](plots/plot_phillips_curve.png) -->
 <p align="center">
 <img src="plots/plot_phillips_curve.png" alt="Plot #3" width="400">
 </p>
 
-The blue line fits a linear model where we regress inflation on the unemployment rate. We can see that there is a significant amount of variation in inflation for a given level of unemployment. This tell us that there are other factors missing from our model which affect inflation.
+The blue line fits a linear model on the data where we regress inflation on the unemployment rate. We can see that there is a significant amount of variation in inflation for a given level of unemployment. This tell us that there are other factors missing from our model which affect inflation.
 
 In fact, there is a considerable amount of debate about the usefulness of the Phillips curve since there are many examples where it doesn't hold. If we plot inflation and unemployment data from the 25 years between 1965 and 1990, we see that the relationship turns positive.
 
@@ -40,7 +40,12 @@ In fact, there is a considerable amount of debate about the usefulness of the Ph
 <img src="plots/plot_phillips_curve_stag.png" alt="Plot #4" width="400">
 </p>
 
-Today, most economists agree that the Phillips curve is only unseful in the short run, and that in the long run there is no trade-off in inflation and unemployment.
+Today, most economists agree that the Phillips curve is only unseful in the short run, and that in the long run there is no trade-off in inflation and unemployment. If we plot unemployment and inflation grouped by their calendar year, we see that the downward sloping Phillips curve consistently appears (at different intensities) across the much shorter time window of a given calendar year.
+
+<p align="center">
+<img src="plots/short_phillips_curve.png" alt="Plot #4b" width="400">
+</p>
+
 
 ## Pandemic effects
 The negative shock in the demand for labor causing a spike in unemployment, and later, the negative shock to the supply of goods and services causing higher inflation have largely worked their way through the economy. 
