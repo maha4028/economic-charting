@@ -60,19 +60,19 @@ Measures of both inflation and unemployment have returned to near pre-pandemic l
 ## Stock market
 
 <p align="center">
-<img src="plots/stocks.png" alt="Plot #5" width="400">
+<img src="plots/stocks.png" alt="Plot #6" width="400">
 </p>
 
 ## International trade
 
 <p align="center">
-<img src="plots/steel.png" alt="Plot #5" width="400">
+<img src="plots/steel.png" alt="Plot #7" width="400">
 </p>
 
 ## Demographic trends
 
 <!-- <p align="center">
-<img src="plots/stocks.png" alt="Plot #5" width="400">
+<img src="plots/stocks.png" alt="Plot #8" width="400">
 </p> -->
 
 # Github commands
