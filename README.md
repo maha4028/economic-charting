@@ -50,14 +50,14 @@ Today, most economists agree that the Phillips curve is only unseful in the shor
 
 This finding of several short-run Phillips curves inside of the noisy data for the spurious and singular long-run Phillips curve is supported by the theory that the relationship described by the Phillips curve only holds in the short-run. Instances where the short-run Phillips curve flips positive (1973-1974 and 1975-1976) seem to be related to an episode of stagflation and recession in the mid-1970s.
 
-## Pandemic effects
+<!-- ## Pandemic effects
 The negative shock in the demand for labor causing a spike in unemployment, and later, the negative shock to the supply of goods and services causing higher inflation have largely worked their way through the economy. 
 
 At its very worst, the unemployment rate was over 400%, or over 4x, its pre-pandemic level. Similarly, inflation at its very highest was increasing at a rate just under 4x its pre-pandemic pace.
 
 <p align="center">
 <img src="plots/cpi_ur_indexed.png" alt="Plot #5" width="400">
-</p>
+</p> -->
 
 Measures of both inflation and unemployment have returned to near pre-pandemic levels. Although inflation still hovers above the two percent target.
 
