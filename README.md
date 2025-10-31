@@ -59,7 +59,7 @@ At its very worst, the unemployment rate was over 400%, or over 4x, its pre-pand
 <img src="plots/cpi_ur_indexed.png" alt="Plot #5" width="400">
 </p> -->
 
-Measures of both inflation and unemployment have returned to near pre-pandemic levels. Although inflation still hovers above the two percent target.
+<!-- Measures of both inflation and unemployment have returned to near pre-pandemic levels. Although inflation still hovers above the two percent target. -->
 
 ## Stock market
 
