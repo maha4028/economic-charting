@@ -5,6 +5,14 @@
 - Stacked bar chart - using U.S. trade data;
 - Dumbell plot - using U.S. demographic data. -->
 
+## Consumer spending
+
+<p align="center">
+<img src="plots/usa_median_family_income.png" alt="Plot #1" width="800">
+</p>
+
+
+
 ## Macroeconomic indicators
 
 Below are the [Consumer Price Index for All Urban Consumers](https://fred.stlouisfed.org/graph/?g=1wmdD) (CPI) and the [Unemployment Rate](https://fred.stlouisfed.org/series/UNRATE) from FRED via the `quantmod` library.
