@@ -1,9 +1,9 @@
 # Economic Charting
-The following chart types/topics are covered:
+<!-- The following chart types/topics are covered:
 - Line graphs - using unemployment and inflation data;
 - Bar chart - using stock returns;
 - Stacked bar chart - using U.S. trade data;
-- Dumbell plot - using U.S. demographic data.
+- Dumbell plot - using U.S. demographic data. -->
 
 ## Macroeconomic indicators
 
