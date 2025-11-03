@@ -2,7 +2,7 @@ library("this.path")
 setwd(this.dir())
 
 library("ipumsr")
-ddi <- read_ipums_ddi("usa_00008.xml")
+ddi <- read_ipums_ddi("../../IPUMS/usa_00009.xml")
 data <- read_ipums_micro(ddi)
 
 # read code book
@@ -20,7 +20,9 @@ df <- merge(x=df, y=region, by.x = "REGION", by.y = "val", all.x = TRUE)
 
 # group by state - median income
 bystate <- df %>% 
-  filter(YEAR==2023) %>%
+  filter(YEAR==2023,
+         PERNUM==1,
+         GQ==1) %>%
   group_by(state) %>%
   reframe(median_fam_inc = median(FTOTINC, na.rm=TRUE),
           mean_fam_inc = mean(FTOTINC, na.rm=TRUE))
