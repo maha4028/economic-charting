@@ -26,7 +26,7 @@ The left and right dashed lines are the Fed's target for year-over-year (YoY), o
 
 ## Phillips curve
 
-If we plot a time series of year-over-year inflation (YoY CPI) and the unemployment rate together, we see they have an inverse relationship. When unemployment goes up inflation comes down. To better quantify this inverse relationship, we need to correlate the two series in a scatter plot.
+If we plot a time series of inflation (year-over-year CPI) and the unemployment rate together, we see they have an inverse relationship. When unemployment goes up inflation comes down. To better quantify this inverse relationship, we need to correlate the two series in a scatter plot.
 
 <!-- ![Plot #2](plots/plot_cpi_unrate.png) -->
 <p align="center">
