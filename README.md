@@ -8,7 +8,7 @@
 ## Consumer spending
 
 <p align="center">
-<img src="plots/usa_median_family_income.png" alt="Plot #1" width="800">
+<img src="plots/usa_median_family_income.png" alt="Plot #1" width="600">
 </p>
 
 
