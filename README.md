@@ -87,6 +87,11 @@ At its very worst, the unemployment rate was over 400%, or over 4x, its pre-pand
 <img src="plots/aging.png" alt="Plot #8" width="500">
 </p>
 
+## Poverty
+<p align="center">
+<img src="plots/dmv_poverty.png" alt="Plot #9" width="500">
+</p>
+
 # Github commands
 To copy
 ```
