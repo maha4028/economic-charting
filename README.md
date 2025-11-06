@@ -59,7 +59,7 @@ Today, most economists agree that the Phillips curve is only unseful in the shor
 <img src="plots/short_phillips_curve.png" alt="Plot #4b" width="500">
 </p>
 
-This finding of several short-run Phillips curves inside of the noisy data for the spurious and singular long-run Phillips curve is supported by the theory that the relationship described by the Phillips curve only holds in the short-run. Instances where the short-run Phillips curve flips positive (1973-1974 and 1975-1976) seem to be related to an episode of stagflation and recession in the mid-1970s.
+This finding of several short-run Phillips curves inside of the noisy data for the larger long-run Phillips curve is supported by the theory that the relationship described by the Phillips curve only holds in the short-run. Instances where the short-run Phillips curve flips positive (1973-1974 and 1975-1976) seem to be related to an episode of stagflation and recession in the mid-1970s.
 
 <!-- ## Pandemic effects
 The negative shock in the demand for labor causing a spike in unemployment, and later, the negative shock to the supply of goods and services causing higher inflation have largely worked their way through the economy. 
@@ -74,13 +74,13 @@ At its very worst, the unemployment rate was over 400%, or over 4x, its pre-pand
 
 ## Poverty
 
-Maryland and Virginia are in the top 10 states nationally with the lowest overall poverty rate, 4th and 7th lowest respectively. This is in contrast with the rest of the South Atlantic region of DC (43rd), DE (18th), WV (48th), NC (36th), SC (42nd), GA (38th), and FL (31st) which, for the most part, are among the states with the highest overall poverty rate.
+Maryland and Virginia are in the top 10 states nationally with the lowest overall poverty rate, 4th and 7th lowest respectively. This is in contrast with the rest of the South Atlantic regions of DC (43rd), DE (18th), WV (48th), NC (36th), SC (42nd), GA (38th), and FL (31st) which, for the most part, are among the states with the highest overall poverty rate.
 
 <p align="center">
 <img src="plots/dmv_poverty.png" alt="Plot #9" width="400">
 </p>
 
-Other than Maryland, the remaining 4 states with the 5 lowest state-level poverty rates nationally are New Hampshire (1st), Utah (2nd), Minnesota (3rd), and Colorado (5th).
+Many attribute the lower rates of poverty in Maryland and Virginia to their relativley larger economies, higher rate of human capital investment, and positive externalities from the Federal Government. Other than Maryland, the remaining four states with the five lowest state-level poverty rates nationally are New Hampshire (1st), Utah (2nd), Minnesota (3rd), and Colorado (5th).
 
 ## Stock market
 
