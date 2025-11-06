@@ -4,7 +4,7 @@
 - Bar chart - using stock returns;
 - Stacked bar chart - using U.S. trade data;
 - Dumbell plot - using U.S. demographic data. -->
-Data story telling in R using API-based data pulls and `ggplot2` graphics. 
+Data insights and story telling in R using dynamically updated API-based data pulls and `ggplot2` graphics. 
 
 ## Consumer spending
 
@@ -14,7 +14,7 @@ Consumer spending is increasingly driven by consumption from high income earners
 <img src="plots/usa_median_family_income.png" alt="Plot #1" width="600">
 </p>
 
-
+As we can see above, most income, and therefore most spending, is coming from costal states with large economies.
 
 ## Macroeconomic indicators
 
