@@ -4,8 +4,11 @@
 - Bar chart - using stock returns;
 - Stacked bar chart - using U.S. trade data;
 - Dumbell plot - using U.S. demographic data. -->
+Data story telling in R using API-based data pulls and `ggplot2` graphics. 
 
 ## Consumer spending
+
+Consumer spending is increasingly driven by consumption from high income earners. Lets see which states report the highest median incomes.
 
 <p align="center">
 <img src="plots/usa_median_family_income.png" alt="Plot #1" width="600">
@@ -69,6 +72,16 @@ At its very worst, the unemployment rate was over 400%, or over 4x, its pre-pand
 
 <!-- Measures of both inflation and unemployment have returned to near pre-pandemic levels. Although inflation still hovers above the two percent target. -->
 
+## Poverty
+
+Maryland and Virginia are in the top 10 states nationally with the lowest overall poverty rate, 4th and 7th lowest respectively. This is in contrast with the rest of the South Atlantic region of DC (43rd), DE (18th), WV (48th), NC (36th), SC (42nd), GA (38th), and FL (31st) which, for the most part, are among the states with the highest overall poverty rate.
+
+<p align="center">
+<img src="plots/dmv_poverty.png" alt="Plot #9" width="400">
+</p>
+
+Other than Maryland, the remaining 4 states with the 5 lowest state-level poverty rates nationally are New Hampshire (1st), Utah (2nd), Minnesota (3rd), and Colorado (5th).
+
 ## Stock market
 
 <p align="center">
@@ -86,16 +99,6 @@ At its very worst, the unemployment rate was over 400%, or over 4x, its pre-pand
 <p align="center">
 <img src="plots/aging.png" alt="Plot #8" width="500">
 </p>
-
-## Poverty
-
-Maryland and Virginia are in the top 10 states nationally with the lowest overall poverty rate, 4th and 7th lowest respectively. This is in contrast with the rest of the South Atlantic region of DC (43rd), DE (18th), WV (48th), NC (36th), SC (42nd), GA (38th), and FL (31st) which, for the most part, are among the states with the highest overall poverty rate.
-
-<p align="center">
-<img src="plots/dmv_poverty.png" alt="Plot #9" width="400">
-</p>
-
-Other than Maryland, the remaining 4 states with the 5 lowest state-level poverty rates nationally are New Hampshire (1st), Utah (2nd), Minnesota (3rd), and Colorado (5th).
 
 # Github commands
 To copy
