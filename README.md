@@ -18,7 +18,8 @@ As we can see above, most income, and therefore most spending, is coming from co
 
 ## Macroeconomic indicators
 
-Below are the [Consumer Price Index for All Urban Consumers](https://fred.stlouisfed.org/graph/?g=1wmdD) (CPI) and the [Unemployment Rate](https://fred.stlouisfed.org/series/UNRATE) from FRED via the `quantmod` library.
+Below are the [Consumer Price Index for All Urban Consumers](https://fred.stlouisfed.org/graph/?g=1wmdD) (CPI) and the [Unemployment Rate](https://fred.stlouisfed.org/series/UNRATE) from the Bureau of Labor Statistics (BLS) via Federal Reserve Economic Data, or FRED.
+<!-- via the `quantmod` library -->
 
 <!-- ![Plot #1](plots/plot_cpi.png) -->
 <p align="center">
