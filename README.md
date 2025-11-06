@@ -81,7 +81,7 @@ Maryland and Virginia are in the top 10 states nationally with the lowest overal
 <img src="plots/dmv_poverty.png" alt="Plot #9" width="400">
 </p>
 
-Many attribute the lower rates of poverty in Maryland and Virginia to their relativley larger economies, higher rate of human capital investment, and positive externalities from the Federal Government. Other than Maryland, the remaining four states with the five lowest state-level poverty rates nationally are New Hampshire (1st), Utah (2nd), Minnesota (3rd), and Colorado (5th).
+Many attribute the lower rates of poverty in Maryland and Virginia to their relativley larger economies, higher rate of human capital investment, and positive externalities from the presence of the federal government. Other than Maryland, the remaining four states with the five lowest state-level poverty rates nationally are New Hampshire (1st), Utah (2nd), Minnesota (3rd), and Colorado (5th).
 
 ## Stock market
 
