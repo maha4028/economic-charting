@@ -16,6 +16,16 @@ Consumer spending is increasingly driven by consumption from high income earners
 
 As we can see above, most income, and therefore most spending, is coming from costal states with large economies.
 
+## Poverty
+
+Maryland and Virginia are in the top 10 states nationally with the lowest overall poverty rate, 4th and 7th lowest respectively. This is in contrast with the rest of the South Atlantic regions of DC (43rd), DE (18th), WV (48th), NC (36th), SC (42nd), GA (38th), and FL (31st) which, for the most part, are among the states with the highest overall poverty rate.
+
+<p align="center">
+<img src="plots/dmv_poverty.png" alt="Plot #9" width="400">
+</p>
+
+Many attribute the lower rates of poverty in Maryland and Virginia to their relativley larger economies, higher rate of human capital investment, and positive externalities from the presence of the federal government. Other than Maryland, the remaining four states with the five lowest state-level poverty rates nationally are New Hampshire (1st), Utah (2nd), Minnesota (3rd), and Colorado (5th).
+
 ## Macroeconomic indicators
 
 Below are the [Consumer Price Index for All Urban Consumers](https://fred.stlouisfed.org/graph/?g=1wmdD) (CPI) and the [Unemployment Rate](https://fred.stlouisfed.org/series/UNRATE) from the Bureau of Labor Statistics (BLS) via Federal Reserve Economic Data, or FRED.
@@ -73,15 +83,7 @@ At its very worst, the unemployment rate was over 400%, or over 4x, its pre-pand
 
 <!-- Measures of both inflation and unemployment have returned to near pre-pandemic levels. Although inflation still hovers above the two percent target. -->
 
-## Poverty
 
-Maryland and Virginia are in the top 10 states nationally with the lowest overall poverty rate, 4th and 7th lowest respectively. This is in contrast with the rest of the South Atlantic regions of DC (43rd), DE (18th), WV (48th), NC (36th), SC (42nd), GA (38th), and FL (31st) which, for the most part, are among the states with the highest overall poverty rate.
-
-<p align="center">
-<img src="plots/dmv_poverty.png" alt="Plot #9" width="400">
-</p>
-
-Many attribute the lower rates of poverty in Maryland and Virginia to their relativley larger economies, higher rate of human capital investment, and positive externalities from the presence of the federal government. Other than Maryland, the remaining four states with the five lowest state-level poverty rates nationally are New Hampshire (1st), Utah (2nd), Minnesota (3rd), and Colorado (5th).
 
 ## Stock market
 
