@@ -11,7 +11,7 @@ Data insights and story telling in R using dynamically updated API-based data pu
 Consumer spending is increasingly driven by consumption from high income earners. Lets see which states report the highest median incomes.
 
 <p align="center">
-<img src="plots/usa_median_family_income.png" alt="Plot #1" width="600">
+<img src="plots/usa_median_family_income.png" alt="" width="600">
 </p>
 
 As we can see above, most income, and therefore most spending, is coming from costal states with large economies.
@@ -21,10 +21,22 @@ As we can see above, most income, and therefore most spending, is coming from co
 Maryland and Virginia are in the top 10 states nationally with the lowest overall poverty rate, 4th and 7th lowest respectively. This is in contrast with the rest of the South Atlantic regions of DC (43rd), DE (18th), WV (48th), NC (36th), SC (42nd), GA (38th), and FL (31st) which, for the most part, are among the states with the highest overall poverty rate.
 
 <p align="center">
-<img src="plots/dmv_poverty.png" alt="Plot #9" width="400">
+<img src="plots/dmv_poverty.png" alt="" width="400">
 </p>
 
 Many attribute the lower rates of poverty in Maryland and Virginia to their relativley larger economies, higher rate of human capital investment, and positive externalities from the presence of the federal government. Other than Maryland, the remaining four states with the five lowest state-level poverty rates nationally are New Hampshire (1st), Utah (2nd), Minnesota (3rd), and Colorado (5th).
+
+## Stock market
+
+<p align="center">
+<img src="plots/stocks.png" alt="" width="400">
+</p>
+
+## International trade
+
+<p align="center">
+<img src="plots/steel.png" alt="" width="500">
+</p>
 
 ## Macroeconomic indicators
 
@@ -33,7 +45,7 @@ Below are the [Consumer Price Index for All Urban Consumers](https://fred.stloui
 
 <!-- ![Plot #1](plots/plot_cpi.png) -->
 <p align="center">
-<img src="plots/plot_cpi.png" alt="Plot #1" width="800">
+<img src="plots/plot_cpi.png" alt="" width="800">
 </p>
 
 The left and right dashed lines are the Fed's target for year-over-year (YoY), or annual, inflation and the "natural rate of unemployment", respectively. The inflation target is plotted at the Fed's stated two percent target. Although the exact figure for the "natural rate of unemployment" is unkown - it usually hovers between four and five percent; Above, I plotted it at five percent.
@@ -44,14 +56,14 @@ If we plot a time series of inflation (year-over-year CPI) and the unemployment 
 
 <!-- ![Plot #2](plots/plot_cpi_unrate.png) -->
 <p align="center">
-<img src="plots/plot_cpi_unrate.png" alt="Plot #2" width="400">
+<img src="plots/plot_cpi_unrate.png" alt="" width="400">
 </p>
 
 When plotted across time, we see that the unemployment rate and inflation are indeed negatively correlated (with a correlation coefficient of -0.433). This relationship is described by [the Phillips curve](https://en.wikipedia.org/wiki/Phillips_curve). In our sample from 2000-present, we see that the highest data point for inflation is from June 2022 and our highest data point for unemployment is from April 2020.
 
 <!-- ![Plot #Phil](plots/plot_phillips_curve.png) -->
 <p align="center">
-<img src="plots/plot_phillips_curve.png" alt="Plot #3" width="400">
+<img src="plots/plot_phillips_curve.png" alt="" width="400">
 </p>
 
 The blue line fits a linear model on the data where we regress inflation on the unemployment rate. We can see that there is a significant amount of variation in inflation for a given level of unemployment. This tell us that there are other factors missing from our model which affect inflation.
@@ -59,7 +71,7 @@ The blue line fits a linear model on the data where we regress inflation on the 
 In fact, there is a considerable amount of debate about the usefulness of the Phillips curve since there are many examples where it doesn't hold. If we plot inflation and unemployment data from the 25 years between 1965 and 1990, we see that the relationship turns positive.
 
 <p align="center">
-<img src="plots/plot_phillips_curve_stag.png" alt="Plot #4" width="400">
+<img src="plots/plot_phillips_curve_stag.png" alt="" width="400">
 </p>
 
 Today, most economists agree that the Phillips curve is only unseful in the short run, and that in the long run there is no trade-off in inflation and unemployment. This insight helps to explain the unexpectedly positive correlation in unemployment and inflation we see above. If we instead break the scatter plot from 1965-1990 into smaller groups of 2-5 calendar years, we actaully find that there are multiple downward sloping Phillips curves in the data mixed in with a couple positive curves.
@@ -67,7 +79,7 @@ Today, most economists agree that the Phillips curve is only unseful in the shor
 <!-- If we plot unemployment and inflation grouped by their calendar year, we see that the downward sloping Phillips curve consistently appears (at different intensities) across the much shorter time window of a given calendar year. -->
 
 <p align="center">
-<img src="plots/short_phillips_curve.png" alt="Plot #4b" width="500">
+<img src="plots/short_phillips_curve.png" alt="" width="500">
 </p>
 
 This finding of several short-run Phillips curves inside of the noisy data for the larger long-run Phillips curve is supported by the theory that the relationship described by the Phillips curve only holds in the short-run. Instances where the short-run Phillips curve flips positive (1973-1974 and 1975-1976) seem to be related to an episode of stagflation and recession in the mid-1970s.
@@ -78,29 +90,17 @@ The negative shock in the demand for labor causing a spike in unemployment, and 
 At its very worst, the unemployment rate was over 400%, or over 4x, its pre-pandemic level. Similarly, inflation at its very highest was increasing at a rate just under 4x its pre-pandemic pace.
 
 <p align="center">
-<img src="plots/cpi_ur_indexed.png" alt="Plot #5" width="400">
+<img src="plots/cpi_ur_indexed.png" alt="" width="400">
 </p> -->
 
 <!-- Measures of both inflation and unemployment have returned to near pre-pandemic levels. Although inflation still hovers above the two percent target. -->
 
 
 
-## Stock market
-
-<p align="center">
-<img src="plots/stocks.png" alt="Plot #6" width="400">
-</p>
-
-## International trade
-
-<p align="center">
-<img src="plots/steel.png" alt="Plot #7" width="500">
-</p>
-
 ## Demographic trends
 
 <p align="center">
-<img src="plots/aging.png" alt="Plot #8" width="500">
+<img src="plots/aging.png" alt="" width="500">
 </p>
 
 # Github commands
